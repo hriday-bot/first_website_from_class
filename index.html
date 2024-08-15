@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!--This is the navigation container-->
+      <img src="icons/logoo-01.svg" alt="logo" class="logo" />
+      <li><a href="#services" id="text">Services</a></li>
+      <li><a href="#portfolio" id="text">portfolio</a></li>
+      <li><a href="#about" id="text">about</a></li>
+      <li><a href="#team" id="text">team</a></li>
+      <li><a href="#contact" id="text">contact</a></li>
+    </div>
+    <!--This is ending of the nav container -->
+
+    <main>
+      <div class="main-container">
+        <!--This is the code for the navigation bar -->
+
+        <!-- This is the code for the sub-text -->
+        <h3 id="main-text" class="main-text-1">Welcome to my studio!</h3>
+
+        <!-- This is the code for the main text -->
+        <h1 id="main-text" class="main-text-2">Its nice to meet you</h1>
+
+        <!-- This is the code for the button on the home page -->
+        <button class="btn">tell me more</button>
+        <!--This is the code for the background image-->
+        <img src="photos/bgc.jpg" alt="background-image" class="img" />
+      </div>
+      <!--This is the ending for the main container-->
+
+      <!-- This is the code for the services section  -->
+
+      <section id="services">
+        <h1 class="services-text">Services</h1>
+        <div class="icon-container">
+          <div class="container-1">
+            <img src="icons/cart.svg" alt="" class="cart" />
+            <p class="cart-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+              tempore blanditiis consequatur optio! Non ab praesentium
+              aspernatur, excepturi modi voluptatem mollitia natus. Aliquam
+              natus iusto itaque nisi voluptates aliquid temporibus. Molestiae
+              vel rerum placeat repudiandae minus sequi dolorem iusto laborum
+              fugiat? Minima quaerat quo alias sint ratione, nam accusantium
+              voluptates corrupti in laudantium velit est veritatis veniam amet,
+              tenetur fugit.
+            </p>
+          </div>
+          <div class="container-2">
+            <img src="icons/laptop.svg" alt="" class="laptop" />
+            <p class="laptop-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+              tempore blanditiis consequatur optio! Non ab praesentium
+              aspernatur, excepturi modi voluptatem mollitia natus. Aliquam
+              natus iusto itaque nisi voluptates aliquid temporibus. Molestiae
+              vel rerum placeat repudiandae minus sequi dolorem iusto laborum
+              fugiat? Minima quaerat quo alias sint ratione, nam accusantium
+              voluptates corrupti in laudantium velit est veritatis veniam amet,
+              tenetur fugit.
+            </p>
+          </div>
+          <div class="container-3">
+            <img src="icons/lock.svg" alt="" class="lock" />
+            <p class="lock-text">
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quis
+              tempore blanditiis consequatur optio! Non ab praesentium
+              aspernatur, excepturi modi voluptatem mollitia natus. Aliquam
+              natus iusto itaque nisi voluptates aliquid temporibus. Molestiae
+              vel rerum placeat repudiandae minus sequi dolorem iusto laborum
+              fugiat? Minima quaerat quo alias sint ratione, nam accusantium
+              voluptates corrupti in laudantium velit est veritatis veniam amet,
+              tenetur fugit.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="portfolio-container">
+        <section id="portfolio">
+          <h1 class="portfolio-text" id="portfolio-letter">portfolio</h1>
+          <p class="portfolio-para" id="portfolio-letter">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum iure
+          </p>
+          <div class="img-container">
+            <div class="img-container-1">
+              <img src="photos/watch.jpg" alt="" class="watch" />
+              <h1>Threads</h1>
+              <p>Illustrations</p>
+            </div>
+            <div class="img-container-3">
+              <img src="photos/shoes.jpg" alt="" class="shoes" />
+              <h1>Explore</h1>
+              <p>Graphic design</p>
+            </div>
+            <div class="img-container-4">
+              <img src="photos/coke.jpg" alt="" class="coke" />
+              <h1>Finish</h1>
+              <p>Identity</p>
+            </div>
+            <div class="img-container-5">
+              <img src="photos/laptop.jpg" alt="" class="laptop-2" />
+              <h1>Lines</h1>
+              <p>Branding</p>
+            </div>
+            <div class="img-container-6">
+              <img src="photos/perfume.jpg" alt="" class="perfume" />
+              <h1>SouthWest</h1>
+              <p>website Design</p>
+            </div>
+            <div class="img-container-2">
+              <img src="photos/shoes.jpg" alt="" class="shoes" />
+              <h1>window</h1>
+              <p>Photography</p>
+            </div>
+          </div>
+        </section>
+      </div>
+      <div class="about-container">
+        <section id="about"></section>
+      </div>
+      <div class="team">
+        <section id="team"></section>
+      </div>
+      <div class="contact">
+        <section id="contact"></section>
+      </div>
+      <div class="services-container">
+        <section id="services"></section>
+      </div>
+    </main>
+    <!--This is import GSAP -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"
+      integrity="sha512-7eHRwcbYkK4d9g/6tD/mhkf++eoTHwpNM9woBxtPUBWm67zeAfFC+HrdoE2GanKeocly/VxeLvIqwvCdk7qScg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- This is the import link for the GSAP scrollTrigger -->
+    <script src="https://cdn.jsdelivr.net/npm/gsap@3.12.5/dist/ScrollTrigger.min.js"></script>
+    <!--This is to link css and js -->
+    <script src="script.js"></script>
+  </body>
+</html>
